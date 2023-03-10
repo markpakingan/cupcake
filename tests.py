@@ -107,3 +107,7 @@ class CupcakeViewsTestCase(TestCase):
             })
 
             self.assertEqual(Cupcake.query.count(), 2)
+
+    # def test_update_single_cupcake(self):
+    #     with app.test_client()as client:
+    #         self.assertIsInstance(data[""])
